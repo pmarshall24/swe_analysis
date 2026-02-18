@@ -1,9 +1,22 @@
+# Python
 __pycache__/
 *.pyc
+
+# Environment files
 .env
 *.env
-data/
+
+# Ignore raster data only
+data/rasters/
+data/raw/
+data/processed/
+
+# Raster formats anywhere
 *.tif
 *.tiff
+
+# Notebook checkpoints
 .ipynb_checkpoints/
+
+# OS files
 .DS_Store
