@@ -14,6 +14,8 @@ The goal is to support consistent, transparent, and repeatable watershed snowpac
 ### Data Setup
 Large raster data (SWE, DEMs, masks) is not included in this repository and is excluded via .gitignore.
 
+Access data through the WeGaw data dashboard website at: https://dashboard.staging.defrost.io/dashboard. Username and password are shared separately. 
+
 To run the analysis:
 1. Create a data/ folder in the project root.
 2. Add rasters to:
